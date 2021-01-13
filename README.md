@@ -29,7 +29,7 @@ These x and y values are used for cropping. The result is a 3-D rectangular slic
 
 7) Score Each Cluster:  Here we developed a scoring system that leverages the bit mask created in step 4 along with the clusters obtained in step 6.  For each cluster we project the entire 3-d cluster into the bit map.  Every time a point in a cluster projects into the bit mask a point is awarded to the cluster.  The cluster with the highest score at the end is the cluster most likely to obtain
 
-![alt text](SamplePics/MaskOverlaid.png) 
+![alt text](SamplePics/MaskOverlaid.jpg) 
 
 8) Filter and Compute Centroid: The winning cluster is then filtered and reduced to only those 3-D points which project into the pixel.  Using this set of points we compute a centroid and obtain the pose estimation with respect to the position of the realsense.
 Cluster filtered to points that scored:
